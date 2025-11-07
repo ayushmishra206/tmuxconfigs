@@ -25,4 +25,4 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-eval "$(oh-my-posh init bash --config /mnt/c/Oh-my-posh/ohmyposhv3-v2.json)"
+eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/ayushmishra206/tmuxconfigs/master/configs/Oh-my-posh/ohmyposhv3-v2.json)"
